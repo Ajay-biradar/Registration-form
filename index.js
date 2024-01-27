@@ -54,7 +54,7 @@ app.post("/register", async (req, res) => {
 });
 
 app.get("/success", (req, res) => {
-    res.sendFile(__dirname + "success.html");
+    res.sendFile(__dirname + "/pages/success.html");
 });
 
 app.get("/error", (req, res) => {
